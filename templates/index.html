@@ -1,0 +1,22 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>데이터 시각화</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>데이터 시각화</h1>
+
+    <!-- 성별에 따른 폭력적 재범 발생 비율 그래프 -->
+    <img src="{{ sex_violent_recid_img }}" alt="성별에 따른 폭력적 재범 발생 비율">
+
+    <!-- 나이에 따른 재범 발생 비율 그래프 -->
+    <img src="{{ age_recid_img }}" alt="나이에 따른 재범 발생 비율">
+
+    <!-- 인종에 따른 일반적 재범 발생 비율 그래프 -->
+    <img src="{{ race_recid_img }}" alt="인종에 따른 일반적 재범 발생 비율">
+</body>
+</html>
